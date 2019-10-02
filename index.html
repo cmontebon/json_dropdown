@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Poputlate Dropdown from JSON file</title>
+</head>
+<body>
+	<h1>Populate Dropdown from JSON file</h1>
+
+	<select id="region-dropdown" name="region">
+		<option value="TEST">Test</option>
+	</select>
+
+	<br><br>
+
+	<select id="province-dropdown" name="province" disabled>
+		<option selected="true" disabled>Choose Province</option>
+	</select>
+
+	<br><br>
+
+	<select id="citymun-dropdown" name="citymun" disabled>
+		<option selected="true" disabled>Choose City/Municipality</option>
+	</select>
+
+
+	<script
+	  src="https://code.jquery.com/jquery-3.4.1.min.js"
+	  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+	  crossorigin="anonymous">
+	</script>
+	<script type="text/javascript" src="js/refregion.js"></script>
+	<script type="text/javascript" src="js/refprovince.js"></script>
+	<script type="text/javascript" src="js/refcitymun.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</html>
